@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+langchain
+langchain-ollama
+langchain-community
+chromadb
+sentence-transformers
+streamlit
+python-dotenv
+pandas
