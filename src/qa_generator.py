@@ -1,7 +1,7 @@
 """
 Synthetic Q/A pair generation from scraped blog content.
 
-Loads scraped articles, sends each to the local LLM (gemma4 via Ollama),
+Loads scraped articles, sends each to the configured LLM,
 parses structured Q/A output, and saves the full dataset to CSV.
 """
 
