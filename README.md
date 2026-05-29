@@ -94,6 +94,9 @@ source .venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 
+# Build vector store
+python -m src.vector_store
+
 # Copy environment config
 cp .env.example .env
 ```
@@ -101,7 +104,7 @@ cp .env.example .env
 ### Pull the LLM model
 
 ```bash
-ollama pull gemma4
+ollama pull gemma4:e4b
 ```
 
 Edit `.env` if you want to use a different model.
