@@ -3,6 +3,7 @@ beautifulsoup4
 langchain
 langchain-ollama
 langchain-community
+langchain-text-splitters
 chromadb
 sentence-transformers
 streamlit
